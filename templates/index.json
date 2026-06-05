@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Nightshift_Kitchen.jpg",
+        "image": "shopify://shop_images/Hallway.jpg",
         "image_overlay_opacity": 50,
         "image_height": "large",
         "image_behavior": "none",
