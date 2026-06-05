@@ -1492,3 +1492,38 @@ a.product__text {
     border: none;
   }
 }
+
+.product__description-longform {
+  margin-top: 1.5rem;
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.product__description-longform > summary {
+  cursor: pointer;
+  padding: 1.2rem 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgb(var(--color-foreground));
+}
+
+.product__description-longform > summary::-webkit-details-marker {
+  display: none;
+}
+
+.product__description-longform > summary::after {
+  content: '+';
+  font-size: 1.8rem;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.product__description-longform[open] > summary::after {
+  content: '−';
+}
+
+.product__description-longform > div {
+  padding-bottom: 1.2rem;
+}
