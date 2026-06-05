@@ -200,7 +200,7 @@
                 {%- assign longform = product.metafields.custom.longform_description -%}
                 {%- if longform != blank -%}
                   <details class="product__description-longform quick-add-hidden">
-                    <summary>Full description</summary>
+                    <summary>Expand for details</summary>
                     <div class="rte">{{ longform | metafield_tag }}</div>
                   </details>
                 {%- endif -%}
