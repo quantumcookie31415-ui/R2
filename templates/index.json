@@ -91,14 +91,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "nightshift kitchen",
+            "heading": "Nightshift Kitchen",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>the cafeteria closed before your shift started. the vending machine is the only option. you used to cook. you used to eat like a person. the job changed that — not you. this is gear built for the constraints that actually exist.</p>"
+            "text": "<p>You used to cook. Now the closest thing to a meal plan is the granola bar at your locker and the hope that someone brought food to the break room (they rarely do).</p><p><br/>Our tools help with the part you can actually control. They won't fix the staffing ratio. But they will put real food in your bag before night shift starts.<br/></p><p>Ditch the granola bar. </p>"
           }
         }
       },
