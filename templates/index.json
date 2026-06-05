@@ -100,11 +100,23 @@
           "settings": {
             "text": "<p>You used to cook. Now the closest thing to a meal plan is the granola bar at your locker and the hope that someone brought food to the break room (they rarely do).</p><p><br/>Our tools help with the part you can actually control. They won't fix the staffing ratio. But they will put real food in your bag before night shift starts.<br/></p><p>Ditch the granola bar. </p>"
           }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ditch It",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "button"
       ],
       "settings": {
         "desktop_content_position": "center",
