@@ -91,14 +91,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Nightshift Kitchen",
+            "heading": "You (used to) cook.",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>You used to cook. Now the closest thing to a meal plan is the granola bar at your locker and the hope that someone brought food to the break room (they rarely do).</p><p><br/>Our tools help with the part you can actually control. They won't fix the staffing ratio. But they will put real food in your bag before night shift starts.<br/></p><p>Ditch the granola bar. </p>"
+            "text": "<p>Now the closest thing to a meal plan is the granola bar at your locker and the hope that someone brought food to the break room (they rarely do).</p><p><br/>Our tools help with the part you can actually control. They won't fix the staffing ratio. But they will put real food in your bag before night shift starts.<br/></p><p>Ditch the granola bar. </p>"
           }
         },
         "button": {
