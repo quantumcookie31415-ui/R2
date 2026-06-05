@@ -201,7 +201,7 @@
                 {%- if longform != blank -%}
                   <details class="product__description-longform quick-add-hidden">
                     <summary>Full description</summary>
-                    <div class="rte">{{ longform.value }}</div>
+                    <div class="rte">{{ longform | metafield_tag }}</div>
                   </details>
                 {%- endif -%}
               {%- when 'sku' -%}
