@@ -195,15 +195,14 @@
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
-                    {%- if product.metafields.custom.longform_description.value != blank -%}
-                      <details class="product__description-longform">
-                        <summary>Full description</summary>
-                        <div class="rte">
-                          {{ product.metafields.custom.longform_description.value }}
-                        </div>
-                      </details>
-                    {%- endif -%}
                   </div>
+                {%- endif -%}
+                {%- assign longform = product.metafields.custom.longform_description -%}
+                {%- if longform != blank -%}
+                  <details class="product__description-longform quick-add-hidden">
+                    <summary>Full description</summary>
+                    <div class="rte">{{ longform.value }}</div>
+                  </details>
                 {%- endif -%}
               {%- when 'sku' -%}
                 <p
