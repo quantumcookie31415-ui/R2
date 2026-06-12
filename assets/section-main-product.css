@@ -1538,3 +1538,29 @@ a.product__text {
   background: transparent !important;
   border: 2px solid #5A31F4 !important;
 }
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: rgba(var(--color-foreground), 0.55);
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: rgba(var(--color-foreground), 0.55);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: rgb(var(--color-foreground));
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.breadcrumb span {
+  color: rgba(var(--color-foreground), 0.55);
+}
