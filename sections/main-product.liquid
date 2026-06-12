@@ -78,10 +78,10 @@
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <nav class="breadcrumb" aria-label="breadcrumbs" style="font-size:1.2rem;margin-bottom:1rem;opacity:0.75;">
+          <nav class="breadcrumb" aria-label="breadcrumbs">
             <a href="/">Home</a>
-            {%- if collection -%} / <a href="{{ collection.url }}">{{ collection.title }}</a>{%- endif -%}
-             / <span>{{ product.title }}</span>
+            {% if collection %}<span> / </span><a href="{{ collection.url }}">{{ collection.title }}</a>{% endif %}
+            <span> / </span><span>{{ product.title }}</span>
           </nav>
         <section
           id="ProductInfo-{{ section.id }}"
