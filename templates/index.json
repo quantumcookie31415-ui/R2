@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "image_banner": {
@@ -30,10 +21,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Ditch the Granola Bar",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "https://nightshiftkitchen.com/products/the-used-to-cook-veggie-chopper",
             "button_style_secondary_1": false,
             "button_label_2": "",
-            "button_link_2": "https://nightshiftkitchen.com/products/the-used-to-cook-veggie-chopper",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -91,14 +82,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Nightshift Kitchen",
-            "heading_size": "h1"
-          }
-        },
-        "heading_Nz9pBQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "You (used to) cook",
+            "heading": "You (used to) cook.",
             "heading_size": "h1"
           }
         },
@@ -112,17 +96,16 @@
           "type": "button",
           "settings": {
             "button_label": "Ditch It",
-            "button_link": "shopify://collections/all",
+            "button_link": "https://nightshiftkitchen.com/products/the-used-to-cook-veggie-chopper",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "https://nightshiftkitchen.com/products/the-used-to-cook-veggie-chopper",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "heading_Nz9pBQ",
         "text",
         "button"
       ],
