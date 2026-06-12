@@ -1527,3 +1527,14 @@ a.product__text {
 .product__description-longform > div {
   padding-bottom: 1.2rem;
 }
+
+/* Button overrides: add to cart → filled, shop pay → outline */
+.product-form__submit {
+  background-color: #00B4D8 !important;
+  color: #1C2331 !important;
+}
+
+.shopify-payment-button__button--branded {
+  background: transparent !important;
+  border: 2px solid #5A31F4 !important;
+}
